@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Open sans', sans-serif;
+}
+.holiday{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 9rem;
+    background-color: black;
+}
+.holiday-img
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.holiday-img img:hover{
+    filter: brightness(90%) hue-rotate(50-deg);
+    transform:scale(1.04);
+    cursor: pointer;
+}
+.holiday-text h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+.holiday-text h2{
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 0.8;
+    margin-bottom: 10px;
+}
+.holiday-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}

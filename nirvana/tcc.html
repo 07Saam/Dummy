@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Cost Calculator</title>
+  <link rel="stylesheet" href="tcc.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Travel Cost Calculator</h1>
+    <form id="cost-form">
+      <div class="form-group">
+        <label for="distance">Distance (in km):</label>
+        <input type="number" id="distance" placeholder="Enter distance" required>
+      </div>
+      <div class="form-group">
+        <label for="cost-per-km">Cost per km (in ₹):</label>
+        <input type="number" id="cost-per-km" placeholder="Enter cost per km" required>
+      </div>
+      <div class="form-group">
+        <label for="fuel-efficiency">Fuel Efficiency (km per litre):</label>
+        <input type="number" id="fuel-efficiency" placeholder="Enter fuel efficiency" required>
+      </div>
+      <div class="form-group">
+        <label for="fuel-cost">Fuel Cost (per litre in ₹):</label>
+        <input type="number" id="fuel-cost" placeholder="Enter fuel cost" required>
+      </div>
+      <div class="form-group">
+        <label for="num-travelers">Number of Travelers:</label>
+        <input type="number" id="num-travelers" placeholder="Enter number of travelers" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Calculate</button>
+      </div>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="scriptcc.js"></script>
+</body>
+</html>

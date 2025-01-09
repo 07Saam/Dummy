@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+}.team-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 5rem;
+}
+.team-text p{
+    font-size: var(--p-font);
+    font-weight: 600;
+    line-height: 30px;
+    color: whitesmoke;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 3rem;
+}
